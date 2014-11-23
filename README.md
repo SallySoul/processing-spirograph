@@ -5,14 +5,11 @@ A processing sketch that allows the user to play with a spirograph.
 
 
 <h3> What? </h3>
-I'm in the context of the spirograph as a toy that many people have encountered. \n
-http://en.wikipedia.org/wiki/Spirograph \n
-While there are many ways to generalize this mathematically, for example some kind roullete curve graphing utility for example, I was mostly focused on recreating the expereince of and results of playing with a spirograph.
+I'm in the context of the spirograph as a toy that many people have encountered. For a refresher see: http://en.wikipedia.org/wiki/Spirograph While there are many ways to generalize this mathematically, for example some kind roullete curve graphing utility for example, I was mostly focused on recreating the expereince of and results of playing with a spirograph.
 
 <h3> How </h3>
 As above this is a processing sketch, so you will need a distribution of processing. 
-In general I would suggest downloading the processing IDE from: \n
-https://processing.org/download/ \n
+In general I would suggest downloading the processing IDE from here: https://processing.org/download/ 
 Alternativley, it is easy to use the processing-java utility to build and run the sketches from your environment of choice. 
 
 <h3> Why? </h3>
