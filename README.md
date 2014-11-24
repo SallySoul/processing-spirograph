@@ -11,7 +11,7 @@ Here is a screen shot of the sketch in action:
 ![screenshot](screenshot.png)
 
 Here is the output created by save button on the above screenshot:
-![sample](sample.png)
+![sample](sample.jpg)
 
 <h3> How </h3>
 As above this is a processing sketch, so you will need a distribution of processing. 
