@@ -22,7 +22,7 @@ Alternativley, it is easy to use the processing-java utility to build and run th
 This sketch was a project I made (mostly) over the summer of 2014. I brushed it off recently to post on github. I followed though with it mostly to develop some GUI components for processing sketches. It was an interesting forray into object oriented design for me. I learned some lessons that made their way into the code as I used it on other things. However, I like this project as a snapshot of my progress in things so I will keep it in its "original" condition. 
 
 <h3> References </h3>
-The interface design was inspired by / based on the work of jared counts, in particular the his flock sketch. For his website see:
+The interface design was inspired by / based on the work of jared counts. In particular, his flock sketch featured a very flashy GUI setup that I found to be extremely practical for interactive processing sketches. Jared Count's website can be found here:
 http://jaredcounts.com/
 
 
