@@ -1,8 +1,18 @@
 processing-spirograph
 =====================
 
+
 A processing sketch that allows the user to play with a spirograph. 
 
+### (2020 Update)
+
+[![CircleCI](https://circleci.com/gh/SallySoul/demo_072020.svg?style=svg)](https://app.circleci.com/pipelines/github/SallySoul/processing-spirograph)
+
+[Available On Itch.io](https://thermalspan.itch.io/spirograph)
+
+This project is ~6 years old.
+I don't want to develop it more, I like it as a time capsule.
+However, I added some stuff to deploy it on itch.io, using the now depreciated [processing.js](https://github.com/processing-js/processing-js/).
 
 <h3> What? </h3>
 I was thinking of the spirograph toy that many people have encountered. For a refresher see: http://en.wikipedia.org/wiki/Spirograph While there are many ways to generalize this mathematically, for example some kind roullete curve graphing utility, I was mostly focused on recreating the expereince and results of playing with a spirograph.
