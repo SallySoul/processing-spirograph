@@ -2,6 +2,9 @@ version: 2.1
 
 jobs:
   build-web:
+    machine:
+      image: ubuntu-1604:201903-01
+
     steps:
       - checkout
       - run:
