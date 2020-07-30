@@ -1,24 +1,9 @@
 version: 2.1
 
-executors:
-  rust-executor:
-    docker:
-      - image: rust:latest
-
 jobs:
   build-web:
-    executor: rust-executor
     steps:
       - checkout
-      - run:
-          name: install rustfmt
-          command: rustup component add rustfmt
-      - run:
-          name: install wasm32-unknown-unknown
-          command: rustup target add wasm32-unknown-unknown
-      - run:
-          name: check formatting
-          command: cargo fmt -- --check
       - run:
           name: build web 
           command: ./build_web.sh
@@ -34,7 +19,7 @@ jobs:
             ./butler -V
       - run:
           name: Push to Itch.io
-          command: ./butler push ~/project/target/web ThermalSpan/tacit:${CIRCLE_BRANCH}
+          command: ./butler push ~/project/target/web ThermalSpan/spirograph:${CIRCLE_BRANCH}
 
 workflows:
   version: 2
